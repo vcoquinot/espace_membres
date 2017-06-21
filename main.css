@@ -1,0 +1,144 @@
+
+/*FONTS*/
+@font-face {
+    font-family: 'florante_at_lauraregular';
+    src: url('FLORLRG_-webfont.eot');
+    src: url('FLORLRG_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FLORLRG_-webfont.woff') format('woff'),
+         url('FLORLRG_-webfont.ttf') format('truetype'),
+         url('FLORLRG_-webfont.svg#florante_at_lauraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*principal*/
+*{
+  color: #4e0f5e;
+  font-family: 'kalam','Georgia','sans-serif';
+ }
+
+body {
+  font-weight: 300;
+  padding-top: 70px; 
+    background-image:url('indian_dancers.jpg');
+}
+
+
+
+/*--------------------------------------------------------------------------------*/
+/*MEMBRES*/
+.jumbotron{
+  background-color:transparent;
+  border:solid 5px #e80c97;
+  margin-right:250px;
+  margin-left: 250px;
+}
+
+#membres h4 strong{ /*PHRASE INTRO RESERVE MEMBRES*/
+  color: #4e0f5e;
+  margin-top:15px;
+  margin-bottom: 15px;
+  font-size: 36px;
+}
+
+#membres p{ /*retrouvez vidéos des cours*/
+  color:#4e0f5e;
+  margin-top: 30px;
+  font-size: 25px;
+  padding:1px 5px 20px 1px;
+}
+
+.jumbotron_membres {/*photo background*/
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  
+  margin-bottom:30px; 
+}
+
+/*LISTE COURS ET LIEUX*/
+#cours h5{
+  color: #e80c97;
+  margin-top:30px;
+  font-size:20px;
+}
+
+#cours a{
+  color:#4e0f5e;
+  font-size:20px;
+}
+
+.password{
+  margin-top:35px;
+  margin-bottom:300px;
+  margin-left: 100px;
+}
+
+
+/*--------------------------------------------------------------------------------*/
+/*PRESSE*/
+p{
+  font-size:20px;
+}
+
+/*--------------------------------------------------------------------------------*/
+/*FOOTER*/
+
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  font-size: 14px;
+  font-family:'Georgia','sans-serif';
+  padding: 5px 5px 5px 5px;
+  border-top: solid 5px #f06600;
+  margin-top : 25px;
+  width:100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+/*-------ajouter media queries---------------------------*/
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+
+@media all and (min-width: 768px) and (max-width: 1024px)
+{
+  #pic4 {
+    display:none;
+  }
+
+  #lotus {
+     display:none;
+  }
+}
+
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px 
+@media all and (min-width: 1024px) and (max-width: 1280px)
+@media screen and (max-width: 1280px)
+
+  
+
+
+
+/* Sur tous types d'écrans orientés verticalement 
+@media all and (orientation: portrait)*/
